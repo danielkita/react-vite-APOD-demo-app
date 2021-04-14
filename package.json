@@ -6,7 +6,7 @@
     "dev": "vite",
     "build": "tsc && vite build",
     "serve": "vite preview",
-    "predeploy": "npm run build -- --base=https://danielkita.github.io/react-vite-APOD-demo-app/",
+    "predeploy": "npm run build -- --base=/react-vite-APOD-demo-app/",
     "deploy": "gh-pages -d dist"
   },
   "dependencies": {
