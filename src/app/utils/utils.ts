@@ -22,7 +22,7 @@ export const getRandomNonRepeatableDay = () => {
 };
 
 export const getImagesFromLocalStorage = () => {
-  return (localStorage.images as string).split(",");
+  return ((localStorage.images as string) ?? "").split(",");
 };
 
 export const saveImageToLocalStorage = (image: string) => {
