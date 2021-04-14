@@ -1,4 +1,4 @@
-import{r as e}from"./vendor.d3c319eb.js";import{q as t,u as a,B as l,a as r}from"./use-get-photo.48a9a4fa.js";import{L as n}from"./index.6c352ca9.js";const i=t.div`
+import{r as e}from"./vendor.d3c319eb.js";import{q as t,u as a,B as l,a as r}from"./use-get-photo.8138a568.js";import{L as n}from"./index.80ecb84a.js";const i=t.div`
   width: 200px;
   height: 200px;
   border: 1px solid #e5e5e5;
