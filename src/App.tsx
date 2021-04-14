@@ -20,7 +20,7 @@ const App = () => (
     <header>
       <img src={logotype} alt="NASA" />
     </header>
-    <Router>
+    <Router basename={import.meta.env.BASE_URL}>
       <Switch>
         <Route component={MainContainer} exact={true} path="/" />
         <Route component={Favorites} path="/fav" />
