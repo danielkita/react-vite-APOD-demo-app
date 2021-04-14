@@ -8,7 +8,7 @@ const Favorites: React.FC<{ dates: string[] }> = ({ dates }) => {
   return (
     <>
       <S.Container>
-        {dates.map((item) => (
+        {dates.filter(Boolean).map((item) => (
           <FavTile date={item} key={item} />
         ))}
       </S.Container>
