@@ -9,9 +9,13 @@ export const Wrapper = styled.div<{ loading?: boolean }>`
   min-height: 150px;
 
   img {
-    max-width: 500px;
     vertical-align: middle;
     transition: 0.2s ease-in-out;
+    max-width: 100%;
+
+    @media screen and (min-width: 600px) {
+      max-width: 500px;
+    }
 
     ${(props) =>
       props.loading &&
